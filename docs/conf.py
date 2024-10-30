@@ -11,6 +11,8 @@ import os
 import sys
 import shutil
 
+html_theme='sphinx_rtd_theme'
+
 # -- Path setup --------------------------------------------------------------
 
 __location__ = os.path.dirname(__file__)
