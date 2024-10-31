@@ -30,14 +30,12 @@
 |
 
 =====
-chest
+X-Ray Chest Pneumonia
 =====
 
 
-    Add a short description here!
+X-ray scans segmentation model for chest pneumonia    
 
-
-A longer description of your project goes here...
 
 
 .. _pyscaffold-notes:
@@ -45,5 +43,8 @@ A longer description of your project goes here...
 Note
 ====
 
-This project has been set up using PyScaffold 4.6. For details and usage
-information on PyScaffold see https://pyscaffold.org/.
+Set up an environment, and to install all packages: **pip install -r requirements.txt**
+
+Data visualization can be found at *src/data_visualization.ipynb*
+
+For interactive plot for teh dataset, do: **panel serve src\interactive_plot.py --dev**
