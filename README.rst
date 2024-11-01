@@ -36,7 +36,13 @@ X-Ray Chest Pneumonia
 
 X-ray scans segmentation model for chest pneumonia    
 
+The dataset contains 3 folders: train, val, test with each folder has 2 subfolders: NORMAL and PNEUMONIA. All X-Ray scans are .jpeg images
 
+train: 1341 NORMAL and 3875 PNEUMONIA
+
+val: 8 NORMAL and 8 PNEUMONIA
+
+test: 234 NORMAL and 390 PNEUMONIA
 
 .. _pyscaffold-notes:
 
@@ -47,4 +53,4 @@ Set up an environment, and to install all packages: **pip install -r requirement
 
 Data visualization can be found at *src/data_visualization.ipynb*
 
-For interactive plot for teh dataset, do: **panel serve src\interactive_plot.py --dev**
+For interactive plot, do: **panel serve src\interactive_plot.py --dev**
