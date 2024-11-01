@@ -53,4 +53,4 @@ Set up an environment, and to install all packages: **pip install -r requirement
 
 Data visualization can be found at *src/data_visualization.ipynb*
 
-For interactive plot, do: **panel serve src/interactive_plot.py --dev** and you can find the link at line *Bokeh app running at: http://localhost:****/interactive_plot*
+For interactive plot, do: **panel serve src/interactive_plot.py --dev** and you can find the link at line *Bokeh app running at: http://localhost:####/interactive_plot*
