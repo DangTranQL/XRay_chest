@@ -21,6 +21,7 @@ normal_images = os.listdir(os.path.join(data_dir, "train", 'NORMAL'))
 sizes = []
 
 for img in random.sample(normal_images, 100):  # Sample 100 images
+    # Change the plot by changing phase and category 'train'/'test' and 'NORMAL'/'PNEUMONIA'
     img_path = os.path.join(data_dir, "train", 'NORMAL', img)
     with Image.open(img_path) as im:
         sizes.append(im.size)
@@ -30,6 +31,7 @@ widths, heights = zip(*sizes)
 
 fig = Figure(figsize=(8, 4))
 ax = fig.subplots()
+# Plot either widths or heights
 ax.hist(widths, bins=20, color=ACCENT)
 
 component = pn.pane.Matplotlib(fig, format='svg', sizing_mode='scale_both')
