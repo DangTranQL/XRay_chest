@@ -2,4 +2,8 @@
 Contributors
 ============
 
-* “DangTranQL” <“tranquangluandang762@gmail.com”>
+* Name: Quang Luan Dang Tran
+
+* Institution: Drexel University
+
+* Email: tranquangluandang762@gmail.com

@@ -5,6 +5,11 @@ Changelog
 Version 0.1
 ===========
 
-- Feature A added
-- FIX: nasty bug #1729 fixed
-- add your changes here!
+- Data visualization added
+- Interactive plot for data added
+- Base-line model added
+- ViT model added
+- Training completed
+- Model improvements added
+- Testing completed
+- Inference added

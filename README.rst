@@ -54,3 +54,7 @@ Set up an environment, and to install all packages: **pip install -r requirement
 Data visualization can be found at *src/data_visualization.ipynb*
 
 For interactive plot, do: **panel serve src/interactive_plot.py --dev** and you can find the link at line *Bokeh app running at: http://localhost:####/interactive_plot*
+
+The model is trained at *src/ViT.ipynb*, and inference can be performed at *src/ViT_inference.ipynb*
+
+The model can also be found at **huggingface.co/Towen/vit-base-patch16-224-in21k-finetuned**
