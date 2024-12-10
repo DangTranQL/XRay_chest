@@ -46,7 +46,7 @@ Set up an environment, and to install all packages: **pip install -r requirement
 Data visualization 
 ====
 
-![Dataset](/imgs/data.png)
+.. image:: imgs/data.png
 
 Dataset visualization can be found at ``src/data_visualization/data_visualization.ipynb``
 
@@ -54,6 +54,8 @@ For **interactive plot**, do: ``panel serve src/data_visualization/interactive_p
 
 ViT-accuracy and Vit-valloss
 ====
+
+.. image:: imgs/vit_figure.png
 
 **Vit-accuracy** is trained at ``src/model/vit.ipynb``
 
@@ -67,6 +69,8 @@ To use those pre-trained models, go to ``src/analysis/Inference.ipynb``
 
 Results
 ====
+
+.. image:: imgs/output.png
 
 The performance result can be found at ``src/analysis/Plots.ipynb``
 
