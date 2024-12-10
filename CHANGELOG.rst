@@ -13,3 +13,7 @@ Version 0.1
 - Model improvements added
 - Testing completed
 - Inference added
+- Vit-accuracy model added
+- ViT-valloss model added
+- Performance plots and metrics added
+- Fail analysis added

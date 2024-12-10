@@ -48,6 +48,8 @@ Data visualization
 
 .. image:: imgs/data.png
 
+.. image:: imgs/xray.png
+
 Dataset visualization can be found at ``src/data_visualization/data_visualization.ipynb``
 
 For **interactive plot**, do: ``panel serve src/data_visualization/interactive_plot.py --dev`` and you can find the link at line ``Bokeh app running at: http://localhost:####/interactive_plot``
