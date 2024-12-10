@@ -51,10 +51,29 @@ Note
 
 Set up an environment, and to install all packages: **pip install -r requirements.txt**
 
-Data visualization can be found at *src/data_visualization.ipynb*
+Data visualization 
+====
 
-For interactive plot, do: **panel serve src/interactive_plot.py --dev** and you can find the link at line *Bokeh app running at: http://localhost:####/interactive_plot*
+Dataset visualization can be found at ``src/data_visualization/data_visualization.ipynb``
 
-The model is trained at *src/ViT.ipynb*, and inference can be performed at *src/ViT_inference.ipynb*
+For **interactive plot**, do: ``panel serve src/data_visualization/interactive_plot.py --dev`` and you can find the link at line ``Bokeh app running at: http://localhost:####/interactive_plot``
+
+ViT-accuracy and Vit-valloss
+====
+
+**Vit-accuracy** is trained at ``src/model/vit.ipynb``
 
 The model can also be found at **huggingface.co/Towen/vit-base-patch16-224-in21k-finetuned**
+
+**Vit-accuracy** is trained at ``src/model/vit_earlystop.ipynb``
+
+The model can also be found at **huggingface.co/Towen/vit-base-patch16-224-in21k-finetuned-earlystop**
+
+To use those pre-trained models, go to ``src/analysis/Inference.ipynb``
+
+Results
+====
+
+The performance result can be found at ``src/analysis/Plots.ipynb``
+
+Heatmap of the feature map of the model can be found at ``src/analysis/Fail_analysis.ipynb``, but it is incomplete
