@@ -46,7 +46,7 @@ Set up an environment, and to install all packages: **pip install -r requirement
 Data visualization 
 ====
 
-![Dataset](imgs/data.png)
+![Dataset](/imgs/data.png)
 
 Dataset visualization can be found at ``src/data_visualization/data_visualization.ipynb``
 
