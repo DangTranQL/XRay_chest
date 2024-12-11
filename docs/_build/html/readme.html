@@ -39,17 +39,31 @@
 <section id="x-ray-chest-pneumonia">
 <h1>X-Ray Chest Pneumonia<a class="headerlink" href="#x-ray-chest-pneumonia" title="Link to this heading">¶</a></h1>
 <p>X-ray scans segmentation model for chest pneumonia</p>
-<p>The dataset contains 3 folders: train, val, test with each folder has 2 subfolders: NORMAL and PNEUMONIA. All X-Ray scans are .jpeg images</p>
-<p>train: 1341 NORMAL and 3875 PNEUMONIA</p>
-<p>val: 8 NORMAL and 8 PNEUMONIA</p>
-<p>test: 234 NORMAL and 390 PNEUMONIA</p>
 <section id="note">
 <span id="pyscaffold-notes"></span><h2>Note<a class="headerlink" href="#note" title="Link to this heading">¶</a></h2>
 <p>Set up an environment, and to install all packages: <strong>pip install -r requirements.txt</strong></p>
-<p>Data visualization can be found at <em>src/data_visualization.ipynb</em></p>
-<p>For interactive plot, do: <strong>panel serve src/interactive_plot.py –dev</strong> and you can find the link at line <em>Bokeh app running at: http://localhost:####/interactive_plot</em></p>
-<p>The model is trained at <em>src/ViT.ipynb</em>, and inference can be performed at <em>src/ViT_inference.ipynb</em></p>
+</section>
+<section id="data-visualization">
+<h2>Data visualization<a class="headerlink" href="#data-visualization" title="Link to this heading">¶</a></h2>
+<img alt="imgs/data.png" src="imgs/data.png" />
+<img alt="imgs/xray.png" src="imgs/xray.png" />
+<p>Dataset visualization can be found at <code class="docutils literal notranslate"><span class="pre">src/data_visualization/data_visualization.ipynb</span></code></p>
+<p>For <strong>interactive plot</strong>, do: <code class="docutils literal notranslate"><span class="pre">panel</span> <span class="pre">serve</span> <span class="pre">src/data_visualization/interactive_plot.py</span> <span class="pre">--dev</span></code> and you can find the link at line <code class="docutils literal notranslate"><span class="pre">Bokeh</span> <span class="pre">app</span> <span class="pre">running</span> <span class="pre">at:</span> <span class="pre">http://localhost:####/interactive_plot</span></code></p>
+</section>
+<section id="vit-accuracy-and-vit-valloss">
+<h2>ViT-accuracy and Vit-valloss<a class="headerlink" href="#vit-accuracy-and-vit-valloss" title="Link to this heading">¶</a></h2>
+<img alt="imgs/vit_figure.png" src="imgs/vit_figure.png" />
+<p><strong>Vit-accuracy</strong> is trained at <code class="docutils literal notranslate"><span class="pre">src/model/vit.ipynb</span></code></p>
 <p>The model can also be found at <strong>huggingface.co/Towen/vit-base-patch16-224-in21k-finetuned</strong></p>
+<p><strong>Vit-accuracy</strong> is trained at <code class="docutils literal notranslate"><span class="pre">src/model/vit_earlystop.ipynb</span></code></p>
+<p>The model can also be found at <strong>huggingface.co/Towen/vit-base-patch16-224-in21k-finetuned-earlystop</strong></p>
+<p>To use those pre-trained models, go to <code class="docutils literal notranslate"><span class="pre">src/analysis/Inference.ipynb</span></code></p>
+</section>
+<section id="results">
+<h2>Results<a class="headerlink" href="#results" title="Link to this heading">¶</a></h2>
+<img alt="imgs/output.png" src="imgs/output.png" />
+<p>The performance result can be found at <code class="docutils literal notranslate"><span class="pre">src/analysis/Plots.ipynb</span></code></p>
+<p>Heatmap of the feature map of the model can be found at <code class="docutils literal notranslate"><span class="pre">src/analysis/Fail_analysis.ipynb</span></code>, but it is incomplete</p>
 </section>
 </section>
 
@@ -73,6 +87,9 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Overview</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#note">Note</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#data-visualization">Data visualization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#vit-accuracy-and-vit-valloss">ViT-accuracy and Vit-valloss</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#results">Results</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributions &amp; Help</a></li>
