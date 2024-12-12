@@ -41,7 +41,7 @@ X-ray scans segmentation model for chest pneumonia
 Note
 ====
 
-Set up an environment, and to install all packages: **pip install -r requirements.txt**
+Set up an environment, and to install all packages: ``pip install -r requirements.txt``
 
 Data visualization 
 ====
@@ -69,7 +69,7 @@ The model can also be found at **huggingface.co/Towen/vit-base-patch16-224-in21k
 
 The model can also be found at **huggingface.co/Towen/vit-base-patch16-224-in21k-finetuned-earlystop**
 
-To use those pre-trained models, go to ``src/analysis/Inference.ipynb``
+To use those pre-trained models, go to ``src/analysis/Inference.ipynb`` and change the model name
 
 Results
 ====
