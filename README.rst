@@ -33,8 +33,7 @@
 X-Ray Chest Pneumonia
 =====
 
-
-X-ray scans segmentation model for chest pneumonia    
+ViT transformer models to detect pneumonia in chest X-ray image 
 
 .. _pyscaffold-notes:
 
@@ -43,8 +42,9 @@ Note
 
 Set up an environment, and to install all packages: ``pip install -r requirements.txt``
 
+=====
 Data visualization 
-====
+=====
 
 .. image:: imgs/data.png
 
@@ -56,8 +56,9 @@ For **interactive plot**, do: ``panel serve src/data_visualization/interactive_p
 
 Data augmentation visualization can be found at ``src/analysis/Transformation_visualization.ipynb``
 
+=====
 ViT-accuracy and Vit-valloss
-====
+=====
 
 .. image:: imgs/vit_figure.png
 
@@ -71,8 +72,9 @@ The model can also be found at **huggingface.co/Towen/vit-base-patch16-224-in21k
 
 To use those pre-trained models, go to ``src/analysis/Inference.ipynb`` and change the model name
 
+=====
 Results
-====
+=====
 
 .. image:: imgs/output.png
 

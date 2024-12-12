@@ -38,13 +38,14 @@
 </div>
 <section id="x-ray-chest-pneumonia">
 <h1>X-Ray Chest Pneumonia<a class="headerlink" href="#x-ray-chest-pneumonia" title="Link to this heading">¶</a></h1>
-<p>X-ray scans segmentation model for chest pneumonia</p>
+<p>ViT transformer models to detect pneumonia in chest X-ray image</p>
 <section id="note">
 <span id="pyscaffold-notes"></span><h2>Note<a class="headerlink" href="#note" title="Link to this heading">¶</a></h2>
 <p>Set up an environment, and to install all packages: <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-r</span> <span class="pre">requirements.txt</span></code></p>
 </section>
+</section>
 <section id="data-visualization">
-<h2>Data visualization<a class="headerlink" href="#data-visualization" title="Link to this heading">¶</a></h2>
+<h1>Data visualization<a class="headerlink" href="#data-visualization" title="Link to this heading">¶</a></h1>
 <img alt="imgs/data.png" src="imgs/data.png" />
 <img alt="imgs/xray.png" src="imgs/xray.png" />
 <p>Dataset visualization can be found at <code class="docutils literal notranslate"><span class="pre">src/data_visualization/data_visualization.ipynb</span></code></p>
@@ -52,7 +53,7 @@
 <p>Data augmentation visualization can be found at <code class="docutils literal notranslate"><span class="pre">src/analysis/Transformation_visualization.ipynb</span></code></p>
 </section>
 <section id="vit-accuracy-and-vit-valloss">
-<h2>ViT-accuracy and Vit-valloss<a class="headerlink" href="#vit-accuracy-and-vit-valloss" title="Link to this heading">¶</a></h2>
+<h1>ViT-accuracy and Vit-valloss<a class="headerlink" href="#vit-accuracy-and-vit-valloss" title="Link to this heading">¶</a></h1>
 <img alt="imgs/vit_figure.png" src="imgs/vit_figure.png" />
 <p><strong>Vit-accuracy</strong> is trained at <code class="docutils literal notranslate"><span class="pre">src/model/vit.ipynb</span></code></p>
 <p>The model can also be found at <strong>huggingface.co/Towen/vit-base-patch16-224-in21k-finetuned</strong></p>
@@ -61,11 +62,10 @@
 <p>To use those pre-trained models, go to <code class="docutils literal notranslate"><span class="pre">src/analysis/Inference.ipynb</span></code> and change the model name</p>
 </section>
 <section id="results">
-<h2>Results<a class="headerlink" href="#results" title="Link to this heading">¶</a></h2>
+<h1>Results<a class="headerlink" href="#results" title="Link to this heading">¶</a></h1>
 <img alt="imgs/output.png" src="imgs/output.png" />
 <p>The performance result can be found at <code class="docutils literal notranslate"><span class="pre">src/analysis/Plots.ipynb</span></code></p>
 <p>Heatmap of the feature map of the model can be found at <code class="docutils literal notranslate"><span class="pre">src/analysis/Fail_analysis.ipynb</span></code>, but it is incomplete</p>
-</section>
 </section>
 
 
@@ -86,13 +86,13 @@
 
 <h3>Navigation</h3>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Overview</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">X-Ray Chest Pneumonia</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#note">Note</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#data-visualization">Data visualization</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#vit-accuracy-and-vit-valloss">ViT-accuracy and Vit-valloss</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#results">Results</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="#data-visualization">Data visualization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#vit-accuracy-and-vit-valloss">ViT-accuracy and Vit-valloss</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#results">Results</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributions &amp; Help</a></li>
 <li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
 <li class="toctree-l1"><a class="reference internal" href="authors.html">Authors</a></li>
