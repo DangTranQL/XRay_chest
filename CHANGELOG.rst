@@ -17,3 +17,4 @@ Version 0.1
 - ViT-valloss model added
 - Performance plots and metrics added
 - Fail analysis added
+- Data augmentation visualization added

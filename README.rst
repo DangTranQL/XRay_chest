@@ -54,6 +54,8 @@ Dataset visualization can be found at ``src/data_visualization/data_visualizatio
 
 For **interactive plot**, do: ``panel serve src/data_visualization/interactive_plot.py --dev`` and you can find the link at line ``Bokeh app running at: http://localhost:####/interactive_plot``
 
+Data augmentation visualization can be found at ``src/analysis/Transformation_visualization.ipynb``
+
 ViT-accuracy and Vit-valloss
 ====
 
